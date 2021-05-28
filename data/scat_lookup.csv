@@ -1,0 +1,359 @@
+Banks/Insurance/Building Society Offices and Other A2 Uses,Retail,21
+Airport Let Outs,Retail,8
+Betting Offices,Retail,24
+Departmental and Walk Round Stores (Large),Retail,86
+Factory Shops,Retail,97
+Farm Shops,Retail,98
+Food Stores,Retail,106
+Hypermarkets/Superstores (over 2500m2),Retail,139
+Large Food Stores (750 - 2500m2),Retail,152
+Large Shops (750 - 1850m2),Retail,154
+Large Shops (Over 1850m2),Retail,155
+Pharmacies,Retail,210
+Retail Warehouses and Foodstores,Retail,235
+Sales Kiosks,Retail,243
+Shops,Retail,249
+Showrooms,Retail,251
+Hairdressing/Beauty Salons,Retail,417
+Pharmacies Within/Adjacent to Surgery/Health Centre,Retail,425
+Post Offices,Retail,429
+Takeaway Food Outlet (Predominantly Off Premises),Retail,442
+Kiosks Within/Part of Specialist Property,Retail,504
+Salons/Clinics Within/Part of Specialist Property,Retail,507
+Shops Within/Part of Specialist Property,Retail,508
+Amusement Arcades,Retail,11
+Markets (Other Than Livestock),Retail,165
+Food Processing Centres,Industry,105
+Foundries,Industry,110
+Vehicle Repair Workshops and Garages,Industry,289
+Business Units,Industry,408
+Workshops Within/Part of Specialist Property,Industry,512
+Factories Workshops and Warehouses (Incl Bakeries and Dairies),Industry,96
+Large Industrials (Over 20 000m2),Industry,153
+Motor Vehicle Works,Industry,192
+Newspaper Printing Works (National Scheme),Industry,198
+Paper Mills,Industry,207
+Bullion/Money Stores (National Scheme),Industry,34
+High Tech Warehouses,Industry,129
+Land Used For Storage,Industry,148
+Large Distribution Warehouses,Industry,151
+Post Office Sorting Centres,Industry,217
+Storage Depots,Industry,267
+Stores,Industry,268
+Wholesale Warehouses,Industry,301
+Stores Within/Part of Specialist Property,Industry,510
+Warehouses Within/Part of Specialist Property,Industry,511
+Computer Centres (Non-Purpose Built),Industry,68
+Computer Centres (Purpose Built),Industry,69
+Aircraft Works With Airfields,Industry,7
+Aluminium Smelting Works,Industry,9
+Artificial Fibre Works,Industry,16
+Asphalt Plants,Industry,17
+Beet Sugar Factories,Industry,23
+Boat Yards,Industry,27
+Breweries (National Scheme),Industry,31
+Brickworks (Traditional) Clay Tile/Pipe Works,Industry,32
+Bulk Cement Storage Depots,Industry,33
+Cable Head End Buildings,Industry,37
+Cattle Breeding Centres,Industry,50
+Cement Tile Works,Industry,51
+Cement Works,Industry,52
+Chemical Works,Industry,55
+Coking and Carbonising Plants,Industry,63
+Concrete Batching Plants,Industry,71
+Concrete Block Works,Industry,72
+Concrete Product Works,Industry,73
+Creameries,Industry,79
+Distilleries,Industry,87
+Electric Generators At Landfill Sites With Connecting Pipelines,Industry,93
+Exhaust and Tyre Centres,Industry,95
+Flour Mills (National Scheme),Industry,103
+Garages (Transport and Commercial),Industry,113
+Heredits Used For Primary Treatment/Processing Of Minerals,Industry,127
+Iron and/or Steel Works,Industry,142
+Livestock Markets (National Scheme),Industry,158
+Maltings - Non Trad,Industry,162
+Maltings - Trad,Industry,163
+Mechanised Handling Depots,Industry,166
+Mineral Producing Hereditament - Blockstone,Industry,167
+Mineral Producing Hereditament - Brine,Industry,168
+Mineral Producing Hereditament - Chalk,Industry,169
+Mineral Producing Hereditament - China Clay,Industry,170
+Mineral Producing Hereditament - Clay,Industry,171
+Mineral Producing Hereditament - Coal,Industry,172
+Mineral Producing Hereditament - Fluorspar,Industry,173
+Mineral Producing Hereditament - Gas,Industry,174
+Mineral Producing Hereditament - Hardrock,Industry,175
+Mineral Producing Hereditament - Inert,Industry,176
+Mineral Producing Hereditament - Oil,Industry,177
+Mineral Producing Hereditament - Other Mineral Category,Industry,178
+Mineral Producing Hereditament - Putrescible,Industry,179
+Mineral Producing Hereditament - Sand and Gravel,Industry,180
+Mineral Producing Hereditament - Shale Burnt,Industry,181
+Mineral Producing Hereditament - Slate,Industry,183
+MOD Hereditaments,Industry,187
+Nuclear Establishments,Industry,200
+Oil Refineries,Industry,205
+Pipelines,Industry,212
+Potteries,Industry,218
+Properties Involving Extraction Of Materials For Profit,Industry,221
+Provender Mills (National Scheme),Industry,222
+Refuse Destructor Plants/Disposal Sites,Industry,233
+Scrap Metal/Breakers Yard,Industry,244
+Sea Dredged Aggregate Processing Plants and Depots,Industry,245
+Ship Building Yards,Industry,247
+Ship Repair Yards,Industry,248
+Spoil Heap Workings,Industry,255
+Tanneries,Industry,274
+Vehicle Testing Centres (With Test Tracks),Industry,290
+Vehicle Testing Centres (Without Test Tracks),Industry,291
+Wafer Fabrications (National Scheme),Industry,295
+Waste Incinerator Plants,Industry,297
+Waste Transfer Stations,Industry,299
+Abattoirs and Slaughter Houses (Contractors Valuation),Industry,400
+Abattoirs and Slaughter Houses (Rental Valuation),Industry,401
+Agricultural Research Centres,Industry,402
+Bus Garages (Contractors Valuation),Industry,406
+Bus Garages (Rental Valuation),Industry,407
+Pack Houses,Industry,422
+Peat Fields,Industry,423
+Pumping Mines,Industry,430
+Statutory Docks and Harbours (Formula),Industry,433
+Statutory Docks and Harbours (Non-Formula Prescribed),Industry,434
+Statutory Docks and Harbours (Other),Industry,435
+Weighbridges,Industry,441
+Garages Within/Part of Specialist Property,Industry,502
+Industrial Miscellaneous,Industry,994
+Minerals Miscellaneous,Industry,997
+Offices (Inc Computer Centres),Office,203
+Offices (Headquarters/Institutional),Office,204
+Agricultural Showgrounds (National Scheme),Other,4
+Amusement Parks,Other,12
+Arenas,Other,14
+Beach Huts,Other,22
+Bingo Halls (National Scheme),Other,25
+Bird Sanctuaries,Other,26
+Bowling Alleys,Other,28
+Bowling Centres (Indoor),Other,29
+Bowling Greens (Outdoor),Other,30
+Caravan Parks (Leisure) (National Scheme),Other,47
+Caravan Sites and Pitches (National Scheme),Other,48
+Casinos and Gambling Clubs,Other,49
+Chalet Parks (National Scheme),Other,54
+Cinemas (National Scheme),Other,56
+Clubhouses,Other,60
+Clubs and Institutions,Other,61
+Concert Halls (National Scheme),Other,70
+Conference and Exhibition Centres,Other,74
+Conference Centres in Country Houses,Other,75
+Cricket Centres,Other,81
+Cricket Grounds (County),Other,82
+Cricket Grounds/Pitches (Non-County),Other,83
+Dance Schools and Centres,Other,84
+Drive-In Restaurants,Other,91
+Drive-Thru Restaurants,Other,92
+Food Courts,Other,104
+Football Grounds,Other,107
+Football Pitches,Other,108
+Football Stadia,Other,109
+Go Kart Rinks,Other,116
+Golf Courses,Other,117
+Golf Driving Ranges,Other,118
+Greyhound Racetracks,Other,121
+Health Farms,Other,125
+Heritage Railways,Other,128
+Horse Racecourses,Other,132
+Ice Rinks,Other,140
+Lakes With Water Sport Facilities,Other,145
+Marinas (National Scheme),Other,164
+Model Villages,Other,188
+Motor Racetracks,Other,191
+Museums and Art Galleries (Contractors),Other,195
+Museums and Art Galleries (Non-Contractors),Other,196
+Night Clubs and Discotheques,Other,199
+Pavilions,Other,208
+Pleasure Piers,Other,213
+Point to Point and Eventing Courses,Other,214
+Polo Grounds,Other,216
+Public Halls,Other,225
+Public Houses/Pub Restaurants (National Scheme),Other,226
+Public Houses/Pub Restaurants (Inc. Lodge) (National Scheme),Other,227
+Racing Stables (National Scheme),Other,229
+Restaurants,Other,234
+Riding Schools and Livery Stables (National Scheme),Other,236
+Rifle and Weapons Ranges,Other,237
+Roadside Restaurants (National Scheme),Other,238
+Roller Skating Rinks,Other,239
+Royal Palaces,Other,240
+Rugby League Grounds,Other,241
+Rugby Union Grounds,Other,242
+Ski Centres,Other,252
+Snooker Halls/Clubs,Other,253
+Speedway Racetracks,Other,254
+Sporting Rights,Other,256
+Sports and Leisure Centres (LA) (Dry Only) (National Scheme),Other,257
+Sports and Leisure Centres (LA) (Wet and Dry) (National Scheme),Other,258
+Sports and Leisure Centres (Private)(Dry Only),Other,259
+Sports and Leisure Centres (Private)(Wet and Dry),Other,260
+Sports Grounds,Other,261
+Sports Stadia,Other,262
+Squash Courts,Other,263
+Stables and Loose Boxes,Other,264
+Stately Homes and Historic Houses (National Scheme),Other,265
+Swimming Pools (Local Authority),Other,272
+Swimming Pools (Private),Other,273
+Tennis Centres,Other,277
+Tennis Courts/Clubs,Other,278
+Theatres (National Scheme),Other,279
+Theme Parks,Other,280
+Totalisators On Horse Racecourses,Other,283
+Tourist Attractions,Other,284
+Village Halls Scout Huts Cadet Huts etc,Other,293
+War Games Courses/Misc Ag. Use,Other,296
+Wine Bars,Other,303
+Zoos and Safari Parks,Other,304
+Aquaria,Other,403
+Boathouses,Other,405
+Cafes,Other,409
+Changing Rooms,Other,410
+Gymnasia/Fitness Suites,Other,416
+Miniature Railways,Other,421
+Pitch and Putt/Putting Greens,Other,426
+Religious Retreats/Study Centres (Residential),Other,431
+Cafes/Restaurants Within/Part of Specialist Property,Other,500
+Gymnasia/Fitness Suites Within/Part of Specialist Property,Other,503
+Sports and Leisure Centres Within/Part of Specialist Property,Other,509
+Leisure Miscellaneous,Other,993
+Colleges of Further Education (National Scheme),Other,65
+Day Nurseries/Play Schools,Other,85
+Local Authority Schools (National Scheme),Other,159
+Oxbridge Colleges,Other,206
+Public and Independent Schools (National Scheme),Other,223
+Universities (Excluding Oxbridge) (National Scheme),Other,288
+University Occupation Within Hospitals,Other,440
+Nurseries/Creches Within/Part of Specialist Property,Other,505
+Educational Miscellaneous,Other,995
+Hospitals and Clinics NHS (National Scheme),Other,134
+Hospitals and Clinics (Private) (National Scheme),Other,135
+Surgeries Clinics Health Centres (Contractors Valuation),Other,436
+Surgeries Clinics Health Centres (Rental Valuation),Other,437
+Coaching Inns,Other,62
+Country House Hotels,Other,77
+Field Study Activity and Adventure Centres,Other,99
+Guest and Boarding Houses,Other,122
+Holiday Centres,Other,130
+Holiday Homes (Self Catering),Other,131
+Hostels,Other,136
+Hotels (3 Star and Under),Other,137
+Hotels (4 Star and Above) and Chain Op. 3 Star (National Scheme),Other,138
+Lodges (National Scheme),Other,160
+Timeshare Complexes (National Scheme),Other,281
+Community Day Centres,Other,67
+Libraries,Other,156
+Civic and Public Buildings (Local Authority Occupations),Other,57
+Coastgaurd Stations,Other,411
+Courts (Rental Valuation),Other,415
+Courts (Contractors Valuation),Other,414
+Police Stations,Other,215
+Information/Visitor Centres,Other,418
+Offices Within/Part of Specialist Property,Other,506
+AA/RAC Service Centres and Boxes,Other,1
+Advertising Right,Other,3
+Ambulance Stations,Other,10
+Animal Boarding,Other,13
+Army Hereditaments,Other,15
+Car Parks (NCP and Multi-Storey),Other,39
+Car Parks (Surfaced Open),Other,40
+Car Parks (Unsurfaced Open),Other,41
+Car Spaces,Other,43
+Cemeteries (National Scheme),Other,53
+Civic Amenity Sites,Other,58
+Contractors Huts and Compounds,Other,76
+Crematoria (With and Without Cemeteries) (National Scheme),Other,80
+Film and TV Studios,Other,100
+Fire Stations,Other,101
+Fish Farms,Other,102
+Funeral Parlours/Chapels Of Rest,Other,111
+Game Farms,Other,112
+Gypsy Camp Sites (Short Stay),Other,123
+Hatcheries/Poultry Farms,Other,124
+Interactive Telephone Kiosks,Other,141
+Kennels and Catteries,Other,143
+Laboratories,Other,144
+Land Used For Advertising,Other,146
+Land Used For Car Boot Sales,Other,147
+Landfill Sites,Other,150
+Moorings (Floating Hereditaments),Other,189
+Mortuaries,Other,190
+Navy Hereditaments,Other,197
+Observatories,Other,202
+Public Conveniences (National Scheme),Other,224
+Public Telephone Kiosks (National Scheme),Other,228
+RAF Hereditaments,Other,230
+Recording Studios,Other,232
+Stud Farms,Other,269
+Studios,Other,270
+Training Centre (Non Residential),Other,285
+Veterinary Clinics / Animal Clinics,Other,292
+Vineyards/Wineries,Other,294
+Waste Recycling Plants,Other,298
+Windmills,Other,302
+Lifeboat Stations,Other,420
+Pet Grooming Parlours,Other,424
+Police Training Colleges,Other,428
+Telescope Sites,Other,438
+University - Ancillary Land or Buildings,Other,439
+Car Parking Within/Part of Specialist Property,Other,501
+Miscellaneous Within/Part of Specialist Property,Other,513
+Commercial Miscellaneous,Other,992
+Formula Assessed Miscellaneous,Other,996
+Crown Miscellaneous,Other,998
+Miscellaneous,Other,999
+ATMs,Other,18
+Auction Rooms,Other,19
+Car Auction Buildings/Sites,Other,38
+Car Showrooms,Other,42
+Car Supermarkets,Other,44
+Car Washes (Stand Alone),Other,45
+Car/Caravan Sales/Display/Hiring Sites,Other,46
+Garden Centres,Other,114
+Hospital Let Outs,Other,133
+Motorway Service Area Let Outs,Other,193
+Motorway and Major Road Service Areas,Other,194
+Petrol Filling Stations (National Scheme),Other,209
+Photographic Booths,Other,211
+Showhouses (National Scheme),Other,250
+Station Let Outs,Other,266
+Land Used for Display,Other,419
+Pitches for Stalls Sales or Promotions,Other,427
+Sales Offices,Other,432
+Nursing Homes (Inc. Old Peoples Homes),Other,201
+Prison Service Hereditaments,Other,220
+Training Centre (Residential),Other,286
+Cold Stores,Other,412
+Grain Silos,Other,119
+Granaries and Intervention Stores,Other,120
+Liquid Bulk Storage (Incl Petrol and Oil) (National Scheme),Other,157
+Archives,Other,404
+Cold Stores (Rental Valuation),Other,413
+Air Ports (Minor) (National Scheme),Other,5
+Air Strips (National Scheme),Other,6
+Bus Stations,Other,36
+Civil Airports,Other,59
+Docks and Harbours (Non-Statutory),Other,89
+Heliports,Other,126
+Lorry Parks,Other,161
+Railways and Tramways (Non Leisure),Other,231
+Tolls (Ferries Roads and Bridges),Other,282
+Truck Stops,Other,287
+Communication Stations (National Scheme),Other,66
+District Heating Undertakings and Networks,Other,88
+Domestic Fuel Installations,Other,90
+Electricity Undertakings (Non-Statutory),Other,94
+Gas Processing Plants,Other,115
+Landfill Gas Generator Sites,Other,149
+Power Generators,Other,219
+Sewage Works (National Scheme),Other,246
+Telecommunications Cable Networks (National Scheme),Other,275
+Telecommunications Switching Centres,Other,276
+Water Undertakings (Non-Statutory),Other,300
