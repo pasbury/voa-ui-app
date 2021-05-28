@@ -242,7 +242,6 @@ def get_rateable_value(n_clicks, total_area, area_unit, billing_authority, scat,
         X_dict["UnitofMeasurement_Int"]=int(area_unit)
         # Process the line items
         for line_item in line_items:
-            print(line_item, schema[line_item_varname_lookup[line_item['line_item']]])
             X_dict[line_item_varname_lookup[line_item['line_item']]] = line_item['line_item_area']/total_area
 
         X = [[ v for k,v in X_dict.items() ]]
@@ -251,7 +250,8 @@ def get_rateable_value(n_clicks, total_area, area_unit, billing_authority, scat,
         print(json_X)
         headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
         r = requests.post(url, data=json_X, headers=headers)
-        rv = r.text["predicted_rv"]
+        json_response_text = json.loads(r.text)
+        rv = json_response_text['predicted_rv']
         message = "Message about RV here"
 
         return rv, message
