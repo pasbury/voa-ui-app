@@ -147,6 +147,8 @@ line_items_table = dash_table.DataTable(
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
+server = app.server
+
 app.layout = dbc.Container([
     dbc.Row(dbc.Col(html.H2('Welcome to the Rateable Value Calculator'))),
     dbc.Row(dbc.Col([dbc.Form([total_area_input, area_unit_input, billing_authority_input, scat_input,
