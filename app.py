@@ -13,6 +13,7 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 import requests
 import json
+import waterfall as wf
 
 external_stylesheets = [dbc.themes.FLATLY]
 
@@ -150,7 +151,10 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.layout = dbc.Container([
-    dbc.Row(dbc.Col(html.H2('Welcome to the Rateable Value Calculator'))),
+    dbc.Row(dbc.Col(html.H1('Welcome to the Rateable Value Calculator'))),
+    html.Br(),
+    dbc.Row(dbc.Col(html.H3('Please enter the details of the hereditment to value:'))),
+    html.Br(),
     dbc.Row(dbc.Col([dbc.Form([total_area_input, area_unit_input, billing_authority_input, scat_input,
                               parking_spaces_input, floors_split_input ]),
                     dbc.Label("Select and add the line items for the hereditment"),
@@ -163,11 +167,19 @@ app.layout = dbc.Container([
                     dbc.Button("Calculate rateable value", id='run_model', n_clicks=0, color="primary",className="mr-3")
                     ]
                     )),
-    dbc.Row(dbc.Col([html.Br(), html.H2("Rateable Value Calculation Results")])),
+    dbc.Row(dbc.Col([html.Br(), html.H3("Rateable value calculation result")])),
+    html.Br(),
     dbc.Row([
-        dbc.Col(dbc.Label(id='rv_number')),
+        dbc.Col(dbc.Label(id='rv_number'), style={'text-align': 'center', 'font-size': '30px'}),
         dbc.Col(dbc.Label(id='rv_calc_text')),
     ]),
+    html.Br(),
+    dbc.Row(dbc.Col([html.Br(), html.H3("Explanation of rateable value estimation")])),
+    dbc.Row(dbc.Col(dbc.Label(["This chart 'explains' the estimated rateable value per square meter as a series of "
+                              "adjustments to the overall average rateable value per square meter in the ratings list."
+                              "  Only the most significant factors are shown.  The adjustments are ",
+                               html.A("SHAP values.", href='https://github.com/slundberg/shap',target="_blank")]))),
+    dbc.Row(dbc.Col(dcc.Graph(id="waterfall_chart"))),
     ])
 
 # Callback to update text about the split of area between low and high floors
@@ -221,6 +233,7 @@ def create_line_item_total_text(rows, total_area):
 @app.callback(
     Output(component_id='rv_number', component_property='children'),
     Output(component_id='rv_calc_text', component_property='children'),
+    Output(component_id='waterfall_chart', component_property='figure'),
     Input('run_model', 'n_clicks'),
     State('total_area_input', 'value'),
     State('area_unit_input', 'value'),
@@ -247,16 +260,18 @@ def get_rateable_value(n_clicks, total_area, area_unit, billing_authority, scat,
         X = [[ v for k,v in X_dict.items() ]]
         url = 'https://voa-model-api.herokuapp.com/voa-api/'
         json_X = json.dumps(X)
-        print(json_X)
         headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
         r = requests.post(url, data=json_X, headers=headers)
         json_response_text = json.loads(r.text)
-        rv = json_response_text['predicted_rv']
-        message = "Message about RV here"
+        rv_per_sqm = int(float(json_response_text['predicted_rv']))
 
-        return rv, message
+        rv = rv_per_sqm * total_area
+        message = "The model estimated a rateable value of £{:,} per sqm;  multiplying that by the total " \
+                  "area of {:,} gives the estimated rateable value shown.".format(rv_per_sqm, total_area)
+
+        return '£{:,}'.format(rv), message, wf.update_waterfall(data=json_response_text, max_features=10)
     else:
-        return "",""
+        return  "","", dash.no_update
 
 if __name__ == '__main__':
     app.run_server(debug=True)
