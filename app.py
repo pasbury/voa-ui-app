@@ -17,6 +17,13 @@ import waterfall as wf
 
 external_stylesheets = [dbc.themes.FLATLY]
 
+meta_tags_list = [
+    {'property': 'og:title', 'content': 'Rateable Value Calculator'},
+    {'property': 'og:image', 'content': 'https://voa-ui-app.herokuapp.com/assets/VOA UI.png'},
+    {'property': 'og:url', 'content': 'https://voa-ui-app.herokuapp.com/'},
+    {'property': 'og:description', 'content': 'Calculate the rateable value of UK commercial property, based on VOA ratings list.'}
+]
+
 # get area unit options
 area_unit_lookup = {'NIA':1, 'GIA':2, 'OTH':3, 'GEA':4, 'EFA':5, 'RCA':6}
 area_unit_options = [ {"label": k, "value": v } for k,v in area_unit_lookup.items() ]
@@ -146,7 +153,7 @@ line_items_table = dash_table.DataTable(
         },
         row_deletable=True)
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, meta_tags=meta_tags_list)
 
 server = app.server
 
